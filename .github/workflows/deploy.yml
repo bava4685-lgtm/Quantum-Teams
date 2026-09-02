@@ -38,7 +38,7 @@ jobs:
             echo "Deploying n8n workflows..."
             cd /home/ubuntu/Quantum-Teams
 
-            N8N_URL="https://13.221.4.159.nip.io"
+            N8N_URL="https://34.239.184.64.nip.io"
             API_KEY="${{ secrets.N8N_API_KEY }}"
 
             for file in "Auto -Telegram + Instagram.json" "xenhra.json" "xexnaro.json"; do
